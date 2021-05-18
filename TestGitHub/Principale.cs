@@ -14,6 +14,8 @@ namespace TestGitHub
             Console.Title = "Test GitHub";
             int n = 0;
             Metodi.Inserimento(ref n);
+            String check;
+            check = Metodi.CheckPariDispari(n);
 
             Console.WriteLine("...");
             Console.ReadKey();

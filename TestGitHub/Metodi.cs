@@ -13,5 +13,18 @@ namespace TestGitHub
             Console.Write("Numero: ");
             _n = Convert.ToInt32(Console.ReadLine());
         }
+        public static String CheckPariDispari(int _n)
+        {
+            String check = "";
+            if (_n % 2 == 0)
+            {
+                check = "Pari";
+            }
+            else
+            {
+                check = "Dispari";
+            }
+            return check;
+        }
     }
 }
