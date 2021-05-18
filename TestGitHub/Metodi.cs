@@ -26,5 +26,9 @@ namespace TestGitHub
             }
             return check;
         }
+        public static void Visualizza(String _stringa)
+        {
+            Console.WriteLine(_stringa);
+        }
     }
 }

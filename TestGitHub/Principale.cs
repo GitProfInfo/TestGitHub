@@ -16,7 +16,7 @@ namespace TestGitHub
             Metodi.Inserimento(ref n);
             String check;
             check = Metodi.CheckPariDispari(n);
-
+            Metodi.Visualizza(check);
             Console.WriteLine("...");
             Console.ReadKey();
         }
