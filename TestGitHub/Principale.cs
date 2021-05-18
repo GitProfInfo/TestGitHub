@@ -12,6 +12,8 @@ namespace TestGitHub
         {
             Console.Clear();
             Console.Title = "Test GitHub";
+            int n = 0;
+            Metodi.Inserimento(ref n);
 
             Console.WriteLine("...");
             Console.ReadKey();
